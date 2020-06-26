@@ -19,6 +19,15 @@ class Game extends Component {
             Math.floor(Math.random() * 3) + (valueA + valueB + valueC);
         return [valueA, valueB, valueC, valueY];
     };
+    handleAnswer = () => {
+        const nextQuestion = this.createNewQuestion();
+        this.setState((currentState) => ({
+            valueA: nextQuestion[0],
+            valueB: nextQuestion[1],
+            valueC: nextQuestion[2],
+            valueY: nextQuestion[3],
+        }));
+    };
     render() {
         const { valueA, valueB, valueC, valueY } = this.state;
         return (
@@ -26,8 +35,8 @@ class Game extends Component {
                 <p>
                     {valueA} + {valueB} + {valueC} = {valueY} ?
                 </p>
-                <button>True</button>
-                <button>False</button>
+                <button onClick={this.handleAnswer}>True</button>
+                <button onClick={this.handleAnswer}>False</button>
             </div>
         );
     }
