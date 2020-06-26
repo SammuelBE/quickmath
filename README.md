@@ -1,3 +1,5 @@
+![dd](https://www.rts.ch/2018/03/15/11/27/9055479.image)
+
 # QuickMath
 
 Small app created to practice and learn more about React.
