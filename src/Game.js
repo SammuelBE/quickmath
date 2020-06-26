@@ -19,7 +19,8 @@ class Game extends Component {
             Math.floor(Math.random() * 3) + (valueA + valueB + valueC);
         return [valueA, valueB, valueC, valueY];
     };
-    handleAnswer = () => {
+    handleAnswer = (e) => {
+        this.props.handleNewScore(this.verifyAnwser(e));
         const nextQuestion = this.createNewQuestion();
         this.setState((currentState) => ({
             valueA: nextQuestion[0],
@@ -28,15 +29,34 @@ class Game extends Component {
             valueY: nextQuestion[3],
         }));
     };
+    verifyAnwser = (e) => {
+        const { valueA, valueB, valueC, valueY } = this.state;
+        const isQuestionCorrect = valueA + valueB + valueC == valueY;
+        return isQuestionCorrect.toString() == e.target.innerHTML
+            ? true
+            : false;
+    };
     render() {
         const { valueA, valueB, valueC, valueY } = this.state;
         return (
-            <div>
-                <p>
+            <div className="container">
+                <p id="mathQuestion" className="my-5">
                     {valueA} + {valueB} + {valueC} = {valueY} ?
                 </p>
-                <button onClick={this.handleAnswer}>True</button>
-                <button onClick={this.handleAnswer}>False</button>
+                <button
+                    style={{ padding: "0.5rem 2rem", fontSize: "2rem" }}
+                    className="btn btn-success text-capitalize mx-3"
+                    onClick={this.handleAnswer}
+                >
+                    true
+                </button>
+                <button
+                    style={{ padding: "0.5rem 2rem", fontSize: "2rem" }}
+                    className="btn btn-danger text-capitalize mx-3"
+                    onClick={this.handleAnswer}
+                >
+                    false
+                </button>
             </div>
         );
     }
