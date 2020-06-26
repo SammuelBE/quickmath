@@ -1,4 +1,4 @@
-[![dd](https://www.rts.ch/2018/03/15/11/27/9055479.image)](https://sammuelj.github.io/quickmatch/)
+[![dd](https://www.rts.ch/2018/03/15/11/27/9055479.image)](http://SammuelJ.github.io/quickmath)
 
 # QuickMath
 
@@ -19,7 +19,7 @@ Small app created to practice and learn more about React.
 
 ## Result
 
--   [View Online](https://sammuelj.github.io/quickmatch/)
+-   [View Online](http://SammuelJ.github.io/quickmath)
 -   [View Code](https://github.com/SammuelJ/quickmatch/tree/master/src)
 
 ## Possible improvements
