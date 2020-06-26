@@ -1,17 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Score extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
-    render() {
-        return (
-            <div>
-                <p>Your Score : Correct/Total</p>
-            </div>
-        );
-    }
-}
+const Score = (props) => (
+    <p>
+        Your Score : {props.currentScore}/{props.totalScore}
+    </p>
+);
 
 export default Score;
