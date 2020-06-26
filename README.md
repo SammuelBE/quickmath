@@ -10,6 +10,11 @@ Small app created to practice and learn more about React.
 
 > Every time the user answers a question, a new question that uses randomly generated numbers is displayed.
 
+## Built With
+
+-   [React](https://reactjs.org/)
+-   [Boostrap](https://getbootstrap.com/)
+
 ## Result
 
 [View Online](https://sammuelj.github.io/quickmatch/)  
@@ -22,8 +27,3 @@ Small app created to practice and learn more about React.
 -   Upload result to server for multiplayer
 -   Create online leaderboard
 -   ....
-
-## Built With
-
--   [React](https://reactjs.org/)
--   [Boostrap](https://getbootstrap.com/)
