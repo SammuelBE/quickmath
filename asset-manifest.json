@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/quickmatch/static/css/main.5f361e03.chunk.css",
+    "main.js": "/quickmatch/static/js/main.9b071e6b.chunk.js",
+    "main.js.map": "/quickmatch/static/js/main.9b071e6b.chunk.js.map",
+    "runtime-main.js": "/quickmatch/static/js/runtime-main.fcb98e46.js",
+    "runtime-main.js.map": "/quickmatch/static/js/runtime-main.fcb98e46.js.map",
+    "static/js/2.db639809.chunk.js": "/quickmatch/static/js/2.db639809.chunk.js",
+    "static/js/2.db639809.chunk.js.map": "/quickmatch/static/js/2.db639809.chunk.js.map",
+    "index.html": "/quickmatch/index.html",
+    "precache-manifest.2fd1d5a8f48f9aac4c1efd048c4a5e1f.js": "/quickmatch/precache-manifest.2fd1d5a8f48f9aac4c1efd048c4a5e1f.js",
+    "service-worker.js": "/quickmatch/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/quickmatch/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.db639809.chunk.js.LICENSE.txt": "/quickmatch/static/js/2.db639809.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/quickmatch/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcb98e46.js",
+    "static/js/2.db639809.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.9b071e6b.chunk.js"
+  ]
+}
