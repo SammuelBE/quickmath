@@ -31,8 +31,8 @@ class Game extends Component {
     };
     verifyAnwser = (e) => {
         const { valueA, valueB, valueC, valueY } = this.state;
-        const isQuestionCorrect = valueA + valueB + valueC == valueY;
-        return isQuestionCorrect.toString() == e.target.innerHTML
+        const isQuestionCorrect = valueA + valueB + valueC === valueY;
+        return isQuestionCorrect.toString() === e.target.innerHTML
             ? true
             : false;
     };
